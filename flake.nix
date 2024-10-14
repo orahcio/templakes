@@ -27,6 +27,13 @@
           Digite documentos do ConTeXt neste ambiente.
         '';
       };
+      python ={
+        path = ./python;
+        description = "Ambiente de desenvolvimento em Python";
+        welcomeText = ''
+          Comece a desenvolver o projeto em python neste ambiente.
+        '';
+      };
     };
   };
 }
